@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:islame/core/Theme/app_theme_manager.dart';
 import 'package:islame/core/constants/app_routes_name.dart';
 import 'package:islame/layout/pages/layout_view.dart';
+import 'package:islame/layout/pages/quran/QuranDatailsView.dart';
 import 'package:islame/modules/splash/pages/splash_view.dart';
 
 void main() {
@@ -20,6 +21,7 @@ class MyApp extends StatelessWidget {
       routes: {
         AppRoutesName.initial: (context) => const SplashView(),
         AppRoutesName.LayoutRoute: (context) => const LayoutView(),
+        AppRoutesName.QuranDatailsView: (context) => const QuranDetailsView(),
       },
       debugShowCheckedModeBanner: false,
     );

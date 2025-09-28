@@ -5,4 +5,5 @@ abstract class ColorPalette {
   static const Color unselectedItemColor = Color(0xff202020);
   static const Color generalTextColor = Color(0xff202020);
   static const Color secondTitleTextColor = Color(0xffFEFFE8);
+  static const Color scaffoldBackgroundColor = Color(0xff202020);
 }
